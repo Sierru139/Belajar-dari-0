@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Yasir</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A newbie programmer who want to be a professional</h3>
 
 - 🔭 I’m currently working on [Belajar](https://github.com/Sierru139/Belajar-dari-0)
 
