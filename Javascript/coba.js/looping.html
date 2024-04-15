@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script> var ulang = true ;
+        while (ulang) {
+          console.log('halo dunia')
+          ulang = confirm('Lagi?')
+        }
+    </script> -->
+    <title>Document</title>
+</head>
+<body>
+    
+  <div class=" blur-[1px] absolute text-center bg-black -z-10 brightness-150">
+  <script>
+    var nilaiAwal = 1;
+    while(nilaiAwal <= 1500 ){
+      document.write('<span class="text-[#F0DB4F]">Java</span><span class="text-blue-500 text-opacity-100">Script</span> ');
+      nilaiAwal++;
+    }
+
+  </script>
+
+  <!-- LOOPING BERHENTI -->
+  <!-- LOOPING BERHENTI SELESAI//////////// -->
+</div>
+<div class="h-screen flex flex-col items-center justify-center">
+  <div class="bg-white bg-opacity-30">
+<h1 class="font-bold md:text-9xl text-7xl" id="text-container">KEREN</h1>
+</div>
+</div>
+
+
+
+<script>
+      const textContainer =  
+              document.getElementById("text-container"); 
+        
+        let hue = 0; 
+  
+        setInterval(() => { 
+            hue = (hue + 1) % 360; 
+            const color = `hsl(${hue}, 100%, 50%)`; 
+            textContainer.style.color = color; 
+        }, 50); 
+
+        
+</script>
+
+
+</body>
+</html>

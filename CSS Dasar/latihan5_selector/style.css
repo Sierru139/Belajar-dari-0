@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: green;
+}
+
+ul li a {
+    color: red;
+}
+
+ol li a {
+    color: orange;
+}
+
+h1 a:hover {
+    background-color: yellow;
+    font-size: 150%;
+}
+
+#p1 {
+    color: red;
+}
+
+.p2 {
+    color: blue;
+}
+
+.cetak-tebal {
+    font-weight: bold;
+}
+
+p.cetak-tebal {
+    font-size: 20px;
+}

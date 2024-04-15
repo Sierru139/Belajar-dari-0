@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 900px;
+            margin: 10px auto;
+            border: 2px solid black ;
+            text-align: center;
+            line-height: 100px;
+            }
+
+        .anu {
+            background-image: linear-gradient(0deg, rgba(37,19,175,0.8689600840336135) 0%, rgba(255,179,0,1) 100%);
+            width: 100px;
+            height: 100px;
+            margin: 4px 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            border-radius: 10%;
+            box-shadow: 0px 0px 10px 2px black ;
+            /* transition: ; [property] <durasi (s & ms)> [fungsi] [delay]*/
+        }
+
+        .anu1 {transition: margin-left 3s, transform 3s 2s, background-color 4s;}
+        .anu2 {transition: all 3s ease-in;}
+        .anu3 {transition: all 3s ease-out;}
+        .anu4 {transition: all 3s ease-in-out;}
+        .anu5 {transition: all 3s linear;}
+        .anu6 {transition: all 3s cubic-bezier(.69,.07,0,1.37);}
+
+        .container:hover .anu {
+            transform: rotate(720deg);
+            margin-left: 795px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="anu anu1">ease</div>
+            <div class="anu anu2">ease in</div>
+            <div class="anu anu3">ease out</div>
+            <div class="anu anu4">ease in out</div>
+            <div class="anu anu5">linear</div>
+            <div class="anu anu6">cubic bezier</div>
+    </div>
+</body>
+</html>

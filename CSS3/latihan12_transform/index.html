@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- scale = besar/kecil, rotate = memutar, skew = membuat condong/miring, translate = posisi -->
+    <style>
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px auto 0;
+            transition: 1s;
+            transform: scale();
+        }
+
+        .kotak:hover {
+            transform: scale(1.5) 
+            rotate(20deg)
+            skew(3deg)
+            translate(150px);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos corrupti, ipsum veritatis harum sequi id officia totam aspernatur eaque illum deserunt ut culpa neque inventore minus nam. Harum, quasi mollitia.</p>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+.container {
+	height: 100vh;
+	width: 100% !important;
+	overflow: hidden;
+}
+
+.page1 {
+	background-color: black;
+	display: flex;
+}
+
+.information {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 25px;
+	text-align: right;
+	color: white;
+}
+
+.information h1 {
+	font-size: 80px;
+	font-weight: 700;
+	background-color: black;
+}
+
+.information p {
+	margin-top: 1rem;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.gambar-page1 {
+	width: 60%;
+	height: 100%;
+	position: relative;
+	background-image: url(img/historyguyPortrait.jpeg);
+	background-repeat: no-repeat;
+	background-position-y: -100px;
+	background-size: cover;
+}
+
+.gambar-page1::after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	right: 0;
+	background: rgb(0,0,0);
+	background: linear-gradient(270deg, rgba(0,0,0,1) 12%, rgba(0,0,0,0) 100%);
+}
+

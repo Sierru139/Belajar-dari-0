@@ -1,0 +1,11 @@
+.lur {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 75%;
+    width: 30%;
+    border: 2px solid red;
+    text-align: center;
+    justify-content: center;
+}

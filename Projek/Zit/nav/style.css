@@ -1,0 +1,27 @@
+body {
+    background-color: blue;
+}
+
+.navbar {
+    background-image: linear-gradient( #232323, blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    border: 2px solid red;
+}
+
+.navbar h2 {
+    margin: auto;
+    text-align: center;
+}
+
+.kotak {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }

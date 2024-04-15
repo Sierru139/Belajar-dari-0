@@ -1,0 +1,28 @@
+/* div {
+    width: 185px;
+    height: 200px;
+    background-color: coral;
+    margin: 20px auto;
+    padding: 50px;
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+    
+} */
+
+div {
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.satu {
+    background-color: green;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.dua {
+    background-color: lightgreen;
+    padding: 30px;
+    border: 5px dashed orange;
+}

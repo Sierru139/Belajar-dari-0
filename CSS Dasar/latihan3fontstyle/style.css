@@ -1,0 +1,28 @@
+/* font-family untuk jenis font*/
+/* color untuk warna font */
+h1 {
+    font-family: monospace;
+    font-style: italic;
+    font-size: 60px;
+    color: #841690;
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+
+/* text-align: left; untuk posisi text*/
+/* text-indent: 30px; untuk paragraf */
+/* word-spacing: 5px; untuk jarak antar kata */
+/* letter-spacing: 2px; untuk jarak antar huruf,  */
+
+p {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-align: left;
+    text-indent: 30px;
+}
+
+/* text-decoration: none; untuk garis pada font */
+
+a {
+    text-decoration: none;
+}

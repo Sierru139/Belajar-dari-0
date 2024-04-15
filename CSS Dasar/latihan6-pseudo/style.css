@@ -1,0 +1,31 @@
+.hello:link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+
+.hello:hover {
+    color: green;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    font-style: red;
+}
+
+/* 3n-2 atau 3n+2 bisa juga pakai odd dan even */
+li:nth-child(3n-2) a {
+    color: green;
+}
+
+li:nth-child(even) a:hover {
+    color: red;
+
+}
+
+p:nth-of-type(1) {
+    color: red;
+}

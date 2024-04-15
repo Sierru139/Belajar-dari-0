@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            text-align: center;
+            font-family: sans-serif;
+        }
+        h1 {
+            color: rgb(250, 171, 0);
+            font-size: 4rem;
+            font-weight: 800;
+            text-shadow: 2px 2px 0px #000000;
+        }
+        .container {
+            height: 600px;
+            text-align: center;
+            position: relative;
+            margin: auto;
+        }
+        .computer-side {
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            height: 45%;
+            background: linear-gradient(0deg, rgba(1,60,72,1) 0%, rgba(4,191,228,1) 100%);
+            position: relative;
+        }
+        .player-side {
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+            height: 45%;
+            background: linear-gradient(0deg, rgba(245,61,11,1) 0%, rgba(121,26,0,1) 100%);
+            position: relative;
+        }
+        .result {
+            margin: -58px 0 0 -50px;
+            height: 30px;
+            width: 100px;
+            position: absolute;
+            border-radius: 50px;
+            top: 50%;
+            left: 50%;
+            z-index: 1;
+            border: 3px solid black;
+            text-align: center;
+            line-height: 30px;
+            background-color: white;
+            font-weight: 600;
+        }
+        img {
+            height: 160px;
+            width: 160px;
+            overflow: hidden;
+            margin-top: 40px;
+            background-color: white;
+            border-radius: 50%;
+            border: 2px solid black;
+            transition: .3s;
+
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            text-decoration: none;
+            display: inline-block;
+            list-style-type: none;
+        }
+        ul li:nth-child(2){
+            margin: 0 20px 0 20px;
+        }
+        ul li img:hover{
+            transform: scale(1.1);
+            transition: .2s;
+            box-shadow: 0 0 20px rgb(223, 156, 12);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Suit Janken</h1>
+    <div class="container">
+
+        <div class="computer-side">
+            <img src="gambar/gunting.png" alt="" class="img-comp">
+        </div>
+        
+        <div class="result">
+            HASIL
+        </div>
+        
+        <div class="player-side">
+            <ul>
+                <li>
+                <img src="gambar/batu.png" alt="" class="batu">
+                </li>
+                <li>
+                <img src="gambar/gunting.png" alt="" class="gunting">
+                </li>
+                <li>
+                <img src="gambar/kertas.png" alt="" class="kertas">
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

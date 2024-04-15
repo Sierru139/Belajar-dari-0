@@ -1,0 +1,10 @@
+div {
+    background-image: url(guy.jpg);
+    background-size: cover;
+    width: 120px;
+    height: 80px;
+    background-color: salmon;
+    border-radius:50% 50% 0 0;
+    text-align: center;
+    line-height: 120px;
+}

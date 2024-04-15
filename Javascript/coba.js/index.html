@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="latihan.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="font-serif">
+    <div class="w-screen flex justify-center">
+      <h2 class="font-bold text-xl">Apa saja yang JavaScript bisa lakukan?</h2>
+    </div>
+
+    <div class="w-screen flex justify-around my-5">
+      <button
+        onclick='document.getElementById("demo").innerHTML = 120*3;'
+        class="bg-red-300 p-3 rounded-full"
+      >
+        NOMOR ANDA
+      </button>
+      <p id="demo" class="mb-4"></p>
+      <button onclick="window.print()" class="bg-blue-300 p-3 rounded-full">
+        Print page ini
+      </button>
+    </div>
+
+    <div class="h-auto flex items-center justify-center">
+      <button
+        onclick="document.getElementById('myImage').src='alam - Copy.jpg'"
+        class="p-5 mr-6 rounded-lg bg-slate-200"
+      >
+        Cool Mode
+      </button>
+      <img id="myImage" src="alam - Copy.jpg" alt="" style="width: 200px" />
+      <button
+        onclick="document.getElementById('myImage').src='alam.jpg'"
+        class="p-5 ml-6 rounded-lg bg-slate-200"
+      >
+        Mode Tamfan
+      </button>
+    </div>
+    <div class="h-auto flex flex-col items-center justify-center">
+      <h1 id="heading" class="mb-10 p-4 text-xl">UBAH WARNA INI !!!</h1>
+      <div>
+        <button onclick="ubahWarna()" class="bg-yellow-400 w-36 rounded-md p-3">
+          COBA TEKAN
+        </button>
+        <button
+          onclick="document.getElementById('heading').classList.remove('text-red-600', 'font-bold', 'bg-yellow-200')"
+          class="p-3 rounded-md bg-red-400 w-36"
+        >
+          Kembali
+        </button>
+      </div>
+    </div>
+
+    <button onclick="mulai()">PENGULANGAN</button>
+
+    <p id="ngulang"></p>
+
+    <script>
+      function ubahWarna() {
+        document.getElementById("h1").classList.add = "text-green-500";
+      }
+
+      function ubahWarna() {
+        document.getElementById("heading").innerHTML = "Warna sudah berubah";
+        document
+          .getElementById("heading")
+          .classList.add("text-red-600", "font-bold", "bg-yellow-200");
+      }
+
+      // alert('mulai');
+      // for (var i = 2; i < 5; i++) {
+      //   alert('halo dunia');
+      // }
+      // alert('selesai');
+    </script>
+  </body>
+</html>

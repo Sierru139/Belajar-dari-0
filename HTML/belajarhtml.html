@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- paragraf -->
+    <h2>Paragraf</h2>
+    <p> Paragraf 1</p>
+    <p><strong> paragraf 2 </strong></p>
+    <hr>
+    <!-- heading  -->
+    <h2>Heading</h2>
+    <h1>Ini adalah Artikel</h1>
+    <p>saya sudah makan nasi</p>
+    <h2>sub judul</h2>
+    <p>gw tadi maen game</p>
+    <hr>
+    <!-- list -->
+    <h1>List</h1>
+    <h3>To Do List</h3>
+    <ol type="I">
+        <li>Bangun pagi</li>
+        <li>Mangan</li>
+        <li>Wareg</li>
+    </ol>
+    
+    <h3>Makanan yang saya makan</h3>
+    <ul type="circle">
+    <li>Ayam Goreng</li>
+    <li>Nasi Goreng</li>
+    <li>Ikan Goreng</li>
+    </ul>
+
+    <h3>Pemrograman web</h3>
+    <dl>
+        <dt><strong>  HTML </strong></dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt><strong>CSS</strong></dt>
+        <dd>Cascading Style Sheet</dd>
+    </dl>
+    <hr>
+    <!-- img hypertext -->
+    <h1>Img Hypertext</h1>
+    <a href="https://www.google.com" target="_blank"> <img src="../guy.jpg" alt="fat guy" width="30%" height="30%" title="Fat Guy" > </a>
+    <hr>
+
+    <!-- table -->
+    <h2>Table</h2>
+    <table border="1" cellspacing="0" cellpadding="3">
+        <thead>
+            <tr>
+                <th></th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>baris 1</th>
+                <td> baris 1, kolom 1</td>
+                <td> baris 1, kolom 2</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th>baris 2</th>
+                <td> baris 2, kolom 1</td>
+                <td> baris 2, kolom 2</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <hr>
+    <!-- table merging -->
+    <h2>Table Merging</h2>
+    <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td rowspan="3">rowspan 3</td>
+                <td colspan="2">colspan 2</td>
+            </tr>
+            <tr>
+                
+                <td>2,2</td>
+                <td>2,3</td>
+            </tr>
+            <tr>
+                
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+    </table>
+    <br><br><br>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td colspan="2" rowspan="2">?</td>
+            <td>2,4</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,4</td>
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+        <hr>
+    </table>
+
+    <hr>
+    <!-- form -->
+    <h2>Form</h2>
+    <form action="">
+        <label for="username">username :</label><input type="text" name="" id="username">
+            <br>
+        <label for="password">password :</label>
+        <input type="password" name="" id="password">
+            <br>
+        <input type="radio" id="pria" name="kelamin"><label for="pria">pria</label>
+        <input type="radio" id="wanita" name="kelamin"><label for="wanita">wanita</label>
+            <br>
+        <input type="checkbox" name="" id="menyanyi"><label for="menyanyi">menyanyi</label>
+        <input type="checkbox" name="" id="olahraga"><label for="olahraga">olahraga</label>
+        <input type="checkbox" name="" id="ngoding"><label for="ngoding">ngoding</label>
+            <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br>
+        <select name="" id="">
+            <option value="">Makassar</option>
+            <option value="">Jakarta</option>
+            <option value="">Bandung</option>
+        </select>
+            <br>
+        <button type="submit">Kirim!</button>
+        <button type="reset">Reset</button>
+    </form>
+    <hr>
+</body>
+</html>

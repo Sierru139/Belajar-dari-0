@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxshadow multiple box-shadow</title>
+</head>
+    <!-- /* box-shadow : inset(opsional), x-offset, y-offset, blur, spread, color */ -->
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            background-image: url(guy.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: -55px 0;
+            margin: 50px auto;
+            box-shadow: 0 0 3px 5px red,
+            0 0 3px 10px yellow,
+            0 0 3px 15px green,
+            0 0 10px 20px blue ;
+            border-radius: 50%;
+        }
+
+    </style>
+<body>
+    <div></div>
+</body>
+</html>

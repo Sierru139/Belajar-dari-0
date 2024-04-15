@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url(); */
+        img {
+            filter: drop-shadow(5px 5px 5px black)
+            blur(10px)
+            grayscale(100%);
+            transition: 1s;
+            height: 200px;
+            width: 200px;
+        }
+
+        img:hover {
+            filter: drop-shadow(5px 5px 5px black)
+            blur(0px);
+            height: 1000px;
+            width: 1300px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            filter: drop-shadow(5px 5px 5px black);
+        }
+
+    </style>
+</head>
+<body>
+    <img src="guy.jpg" alt="">
+    <h1>Anuuuuuuu</h1>
+</body>
+</html>
